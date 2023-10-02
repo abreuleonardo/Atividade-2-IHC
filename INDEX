@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SouzAutos</title>
+    <link rel="shortcut icon" type="image-x/png" href="images/logo.ico">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8" />
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+</head>
+
+<body>
+
+    <header>
+
+        <div class="container">
+            <div class="logo">
+                <img src="/pngs/SOUZA.png" class="logo-home">
+            </div><!--logo-->
+
+            <nav class="desktop">
+                <ul>
+                    <li><a style="color: #EB2D2D;" href="index.html"> Home</a></li>
+                    <li><a href="venda.html"> Venda</a></li>
+                    <li><a href="sobre.html"> Sobre </a></li>
+                    <li><a href=""> Contato</a></li>
+                </ul>
+            </nav><!--desktop-->
+
+            <nav class="mobile">
+                <ul>
+                    <li><a style="color: #EB2D2D;" href="index.html"> Home</a></li>
+                    <li><a href="venda.html"> Venda</a></li>
+                    <li><a href="sobre.html"> Sobre </a></li>
+                    <li><a href=""> Contato</a></li>
+                </ul>
+            </nav><!--mobile-->
+
+
+            <div class="clear"></div><!--clear-->
+        </div><!--container-->
+    </header>
+
+    <section class="banner">
+        <div class="container">
+            <div class="text-banner">
+                <div class="text-banner-single">Consultoria</div><!--text-banner-single-->
+                <div class="text-banner-single">Compra</div><!--text-banner-single-->
+                <div class="text-banner-single">Venda</div><!--text-banner-single-->
+                <div class="text-banner-single" style="color: white;">souzautos@hotmail.com</div>
+                <!--text-banner-single-->
+            </div><!--container-->
+        </div><!--text-banner-->
+    </section><!--banner-->
+
+    <section class="veiculos-destaque">
+        <div class="line-titulo">
+            <div class="ln1"></div>
+            <h2>Veículos em destaque</h2>
+        </div><!--line-titulo-->
+        <div class="container">
+            <div class="vitrine-destaque">
+                <div style="background-image: url('/pngs/picape-sw4.jpg' );" class="carro-img"></div>
+                <div class="info-carro">
+                    <h2>TOYOTA HILUX SW4</h2>
+                    <p>2.8 SRX 4X4 7 LUGARES 16V TURBO INTERCOOLER DIESEL 4P AUTOMÁTICO</p>
+                    <a class="btn1" href="http://127.0.0.1:5500/venda.html" target="_blank">Mais detalhes</a>
+                </div><!--info-carro-->
+            </div><!--vitrine-destaque-->
+
+            <div class="vitrine-destaque">
+                <div style="background-image: url('/pngs/esportivo-panamera.jpeg' );" class="carro-img"></div>
+                <div class="info-carro">
+                    <h2>PORSCHE PANAMERA</h2>
+                    <p>4.8 S V8 GASOLINA 4P AUTOMÁTICO</p>
+                    <a class="btn1" href="http://127.0.0.1:5500/venda.html" target="_blank">Mais detalhes</a>
+                </div><!--info-carro-->
+            </div><!--vitrine-destaque-->
+
+            <div class="vitrine-destaque">
+                <div style="background-image: url('/pngs/passeio-sonata.jpeg' );" class="carro-img"></div>
+                <div class="info-carro">
+                    <h2>HUYNDAI SONATA</h2>
+                    <p>2.4 MPFI I4 16V 182CV GASOLINA 4P AUTOMÁTICO</p>
+                    <a class="btn1" href="http://127.0.0.1:5500/venda.html" target="_blank">Mais detalhes</a>
+                </div><!--info-carro-->
+            </div><!--vitrine-destaque-->
+            <div class="clear"></div><!--clear-->
+        </div><!--container-->
+    </section><!--veiculos-destaque-->
+
+    <section class="servicos-descricao">
+        <div class="half1">
+            <div class="half1-wraper">
+                <h2>Serviços</h2>
+                <ul>
+                    <li>Compra</li>
+                    <li>Venda</li>
+                    <li>Consignação</li>
+                    <li>Consultoria de Veículos</li>
+                    <li>Indicação de mecânico e peças</li>
+                </ul>
+                <a class="btn1" href="">Saiba Mais</a>
+            </div><!--half1-wraper-->
+        </div><!--half1-->
+
+        <div class="half2">
+            <h2>Fale conosco!</h2>
+            <div class="depoimento-single">
+                <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAhVJREFUSEvN1UnITnEUBvDfx8JMdoREiChThg1JmVI2hqIUiTInZcGGYiE2xpQSxUKxUJJZSCFiY0ghsjKkKGTu6Lxfb2/3vq/NW99Z3e7//M9zz3Oe89wWTY6WJtfXJgDGYgEmYwh+4Rbu4AIe1GOhXgf9cBgz8DkLPcE3jMZI9MBubMH3IqAygPjSa+iADTiOPwUF1ibAC8zDo9qcIoBeuJdUTMXzBkIYgTNoh+H4Up1fBHAO4zEOL9EH3fC0DlCA3McRrKwHMAk3sCyTh2U37zCghKZKvc3Ygem4VHlZ28E+LEVP/MAm7MzkGPbFOl10SjEEXXPLAB7iNeZkwiocyOcAPtpgHnE/YlQZwBvEDFZkQu+cw0eEbH82ADiEReheBvAsh7WwqlBIcS8OYk2DOQSd69GxDOB88j+h5ktP5jYHvwHYOekK1ZxCdBgReWMwuAxgew62L95WgbTHHqzGJ/55WEg3YlfeiT14j9NYXgYwMBdrG7YW8D0t6RqaZ78xM2UZ3J9Ia2lVW9GihRLC0MLkyiJoiEG+ShH0x12EV02pvlQL0CX5jH3Y2EAxleMofjkBY/tD5q1RCzAbZ7EY0X5s5W0cw9cawJjTEqxLZYVvNTS7/TnISq24MCit+HrSEa4aXjUxk27m9heaYm0H4SGReBVX8AFdMR+zEPING3mcnhUSDe5Lo038Mv9z1sVpTe/gL9I6cRkc/rZLAAAAAElFTkSuQmCC"/>(85) 991774184</p>
+                <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAfdJREFUSEvt1Umoj2EUx/HPVTJlvLFQFsYyrIiFkOywQCTFVhkypBSyvWRaKIViLQuzvZSShESZShZkJmNkSEfnX8//8eeu7kb31Lt533Oe3znfc87ztulia+vi83ULdEr4b4gGYDHm4TNO41R12kRsQDvO4STe14qtBEbhGgZVzgexDj8wB2fRr/B5gxm4U8bVAv1xBeMzm+MptBA9cQJ7cAnXsQ23sAJ78QzT8LghUgt0ZFA4TM2A8J2LMynyEfFMwNsi283Yjah0TSuBPqk8JPkH09I2YV++2IJd1feoMBILCiPwOr6XFaxK9UcYjZ/VActwLN+Fzzh8q3x2YCu2I2g0CcSkLMCBbGYZOwz30BufcnJaVTELF/OZXQtEsyZhNQ5VmUWzl2InIvvD+J7+Idyw4XiCB1lhUwUxw8FvOi4XQfNxPvkGli+4iik5TTOrZD4k3oF1BRHYC5NxI4P64m42bVEuXHyKUYxxDluJI4XICwxt4C+bHGWNQYxbzHQPBJoluaWx2aVFr9biXe7NU4zFfTzMQWlCtB/r8RVHc86jUc+T9atKIHDexEjcTozLs9pIMBJtEoi1v5AL1jgrGhZognkri2WMmPLKeJkJBao//geD84KL+yi2NaYlLrt/WezMxsQUaOIqCdy/rfuH0wm9/wHRLyGzaxkXlz8bAAAAAElFTkSuQmCC"/> SouzAutos</p>
+                <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAhZJREFUSEvF1UvIT1sYBvDfhyLCRGfkVigkOSeShAFSSnLJ3cQEZ6DIpchAiVxCRgYMJLdco5SYSUkk5XY60emUCSMycu/R+tdu9999X+rrW/Xvv/e73vU+z/s8a63doZtHRzfX12MAo7AFMzCBRiI/8Az3cAz/1hVp18EGHEcf/I8HeNUg5V+YhGH4gr9xsppbB5hcCr7AIrzuokfp8gaGYwqetNbVAa5iPsbivy4UX4s9+IB1eITrWNIEkKJhH5Dq6IW5GI9veIm7JXa7SDmiAAzByCaAjziLjZXq0fciptVAY+wpvMMfOI0oMA8DmgC+4zC2l4Qwv18YbcUd9C7MD5ZdMxPZTRkhsrTk/ArUPUjifuwsC5aVRfm/VOtgOS5gYTE40+eReIg1AoTZjjKf520YiE81gGj9Hnuxu8xF3lVV4u06yIHZXBYcKHINRvypjhbAPuwqE2ewpjOAo+UUZ0222+Wi65UaQJiGcVWivK/ozINqBy2TswUjVUzOCZ+DQ/gHs2omB7BfkwfROSzWV9gOLWZOb7NNV+JtJZ5tOhuRtK3Juazya3fQwmwBPuMWblaYt+o9xiCMaQII+8UY18WrotrURDzFOaxuAvgTYZHEGPymJkvTa4pfQ7yaWmq0lSjB1nUdgx8WSRL/iufoi9HF7MT7I7dw5jfhRJVF0xftdz44R9pd7z32yeyi9J2ndXsHPwHCfnMZO3GOhQAAAABJRU5ErkJggg=="/>@SouzaAutosCar</p>
+                <div class="navigation">
+                    <div class="arrows">
+                        <img src="/pngs/arrow-left.png">
+                        <img src="/pngs/arrow-right.png">
+                    </div><!--arrows-->
+                    <div class="nome-depoimento">
+                        <p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAjdJREFUSEu11dmrTmEUBvDfMacMkTlEhDIryZThQobEjSJKhkjccCH+AG5QoiSkSDJdSOTGlKFEkcxCxsxKkplWvUef49t7f+G8d3u31nretZ5nPW+VWj5VtVxfJQCdMB0T0C9d6BKOYDce510yD6ApdmJyToEf2Is5+FAuLgugMc6jNz5hM9bjXirSFUsxHw1S7Ah8qQmSBbADs/AI43Ajo4u+OIp2WIdllQD0wRV8xWDEvNtiK4akAmcxDy8xEqfwGV3wtBSkXAcbsBgbsSQVrwYpzY3u+uMNdmEGVmJ1EcAddEvzv5aInomDWJGS12J84mYhRuM4TqeOfmGU6yBIDeLq4jueoD3a4EUJyXfxEJ3RAq9TNy2LOniL5miC90nnHdCxRPOxGw/Sd/yP2HeI3ADL7eAiBqEHbmM7ZqcRLUcjrEqLty2R3QvXcSEJIxdgS0oKgoPoVriK1jUkGBscJMdoQp5rsAmLijoYg2O4jAEpODiolmnwcgYL8Bx1cBPdMQznigCC+PuJvClpNHl2EwoLS7mFnpUsWsRMwx48QyzeqwyEID/GF6KYhMOVAkTcCYxKWzoW32okN0zjGIhDWaaY56ZhD7FoIbtQSxhbuGecetiHGGHsQpAdEv3jFL0HQ3ES9REGODfJNN6BGElYdBAbgih7igAiaSr2J7XEIxPvxPBk4xOT4jJFUAlAJAcHB9AsVQry4yGKxco9lQJEkdjWUNbHNPvfbPlfRlR0yf/WwV8B/QQWDHYZj3ZwRAAAAABJRU5ErkJggg=="/>Av. Heráclito Graça 660</p>
+                    </div><!--nome-depoimento-->
+                </div><!--navigation-->
+            </div><!--depoimentos-single-->
+        </div><!--half2-->
+    </section><!--servicos-descricao-->
+
+    
+
+    <footer>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a style="color: #EB2D2D;" href="index.html"> Home</a></li>
+                    <li><a href="venda.html"> Venda</a></li>
+                    <li><a href="sobre.html"> Sobre </a></li>
+                    <li><a href=""> Contato</a></li>
+                </ul>
+            </nav>
+            <p>Todos os direitos reservados</p>
+
+            <div class="clear"></div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
